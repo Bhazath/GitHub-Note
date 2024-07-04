@@ -1,5 +1,5 @@
 # git Command 
-- `git ls-files` : see the file in staging area
+- `git ls-files` : see the file in staged area
 # Remove
 - `git rm <file>` : remove file
 - `git rm --cached -r <file>` : remove from the stageing area
@@ -18,4 +18,13 @@
 ```
 github.com/github/gitignore
 ```
+# Viewing the Staged and Unstaged changes
+- **`git diff --staged`** : diffrent between files 
 
+# Viewing the History
+- `git log` : see the log
+- `git log --oneline` : see logn in oneline
+- `git log --oneline --reverse` : see login in revierse
+
+# Viewing the commit
+- `git show <>` : HEAD:see last commit| HEAD~1:one back commit

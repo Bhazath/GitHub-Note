@@ -5,11 +5,16 @@
 - Websit that allows developers to stor and manage therir code using Git.
 #
 # Configuring git
+- `SYSTEM` : All users
+- `GLOBAL` : All repositories of the current user
+- `LOCAL`  : The current repository
 ```
 git config --global user.name "<My Name>"
 git config --global user.email "<someone@email.com>"
 git config --list
 ```
+`git config --global -e` : to edit global config file
+
 # Clone & Status
 - Clone - Cloning a repository on our local machine
   ```
@@ -34,6 +39,8 @@ git config --list
 - `commit` = it is the record of change
   ```
   git commit -m "some message"
+  
+  git commit -a -m "some message" # to commit without add {-am}
   ```
 # Push 
 
@@ -81,6 +88,7 @@ an event that takes place when Git is unable to automatically resolve difference
 # Undoing changes
 - Case 1 : staged changes
   `git log`
+  `git ls-files` : see the file in staging area
   ```
   git reset <-file name->
   git reset

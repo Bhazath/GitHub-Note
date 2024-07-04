@@ -22,7 +22,7 @@ git config --list
   ```
 - Status - displays the state of the code
   ```
-  git status
+  git status # -s for short 
   ```
 # Git Status Track
 - untracked : new files that git doesn't yet track

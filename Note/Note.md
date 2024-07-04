@@ -88,7 +88,6 @@ an event that takes place when Git is unable to automatically resolve difference
 # Undoing changes
 - Case 1 : staged changes
   `git log`
-  `git ls-files` : see the file in staging area
   ```
   git reset <-file name->
   git reset

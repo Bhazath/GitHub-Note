@@ -80,4 +80,22 @@ an event that takes place when Git is unable to automatically resolve difference
 #
 # Undoing changes
 - Case 1 : staged changes
-  
+  `git log`
+  ```
+  git reset <-file name->
+  git reset
+  ```
+- Case 2 : commited changes (for one commit)
+  ```
+  git reset HEAD~1
+  ```
+- Case 3 : commited changes(for many commits)
+  ```
+  git reset <-commit hash->
+  git reset --hard <-commit hash->
+  ```
+  #
+  # Fork
+  A fork is a new repoitory that shares code and visibility settings with the original "upstream" reposioty.<br>
+  for is a reough copy
+   

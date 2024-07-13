@@ -58,7 +58,7 @@ git config --list
   git remote -v (to verify remote)
   git branch    (to check branch)
   git branch-M main (to rename branch)
-  git push origin main  # to set -u origin main to set as origin main
+  git push -u origin main  # to set -u origin main to set as origin main
   ```
 #
 # Branch Commands

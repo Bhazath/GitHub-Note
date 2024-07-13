@@ -54,11 +54,11 @@ git config --list
 - `init` - used to create a new git repo
   ```
   git init
-  git remote add orgin <-link-> # (<remote repo>)
+  git remote add origin <-link-> # (<remote repo>)
   git remote -v (to verify remote)
   git branch    (to check branch)
   git branch-M main (to rename branch)
-  git push origin main  # to set -u orgin main to set as origin main
+  git push origin main  # to set -u origin main to set as origin main
   ```
 #
 # Branch Commands
